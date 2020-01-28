@@ -1,0 +1,54 @@
+body {
+	background-color: #00ace6;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#mainNavbar {
+	font-size: 1.5rem;
+}
+
+#mainNavbar .navbar-brand {
+	color: #0000ff;
+	text-shadow: 0px 4px 3px blue,
+				 0px 8px 13px turquoise;
+				 font-size: 1.5rem;
+}
+
+#mainNavbar .navbar-brand:hover {
+	color: white;
+}
+
+#mainNavbar .nav-link {
+	color: white;
+}
+
+#mainNavbar .nav-link:hover {
+	color: blue;
+}
+
+#imgresize {
+	max-width: 100%;
+	height: auto;
+}
+
+#headersize {
+	font-size: 4rem;
+}
+
+.scrolled {
+	background-color: rgba(51, 153, 255, .5);
+}
+
+@media (max-width: 1200px) {
+	#headersize {
+		font-size: : 3rem;
+	}
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+.palt p {
+	font-size: 1.125rem;
+}
